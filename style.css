@@ -226,7 +226,9 @@ span{
     display: flex;
 }
 .gallery-box img {
-    width: 100%;
+    max-width: 500px;
+    max-height: 300px;
+    object-fit: cover;
     transition: .5s ease;
 }
 .gallery-box:hover img{
@@ -471,3 +473,15 @@ span{
         margin-top: 2rem;
     }
 }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white   ; /* Change this to your desired color */
+    border-radius: 5px;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--main-color); /* Change this to your desired color on hover */
+  }
