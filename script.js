@@ -56,7 +56,7 @@ window.onscroll = () => {
          ScrollReveal().reveal('.home-content p .about-content', { origin: 'right' });
 //  =================== Typed JS ===================
 const typed = new Typed('.multiple-text',{
-    strings: ['Front-end Developers','Graphic Designers','UI / UX Designers'],
+    strings: ['IT Engineers', 'IOT Engineers ','Front-end Developers','Back-end Developers','Designers'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
